@@ -36,6 +36,8 @@ exports.handler = async ({ body, headers }, context) => {
     //alert(plan);
     if(plan == 'prod_Iy8WKV4AR555nT') {
         plan = 'pro';
+    } else if(plan == 'prod_Iy8XQmenNhui7t') {
+        plan = 'premium';
     }
 
     const role = plan;
