@@ -27,13 +27,6 @@ const content = {
     message:
       'This is protected content! It’s only available if you have the premium plan.',
     allowedRoles: ['premium'],
-    'https://images.unsplash.com/photo-1546975490-e8b92a360b24?auto=format&fit=crop&w=600&h=600&q=80',
-    alt: 'corgi in a tent with string lights in the foreground',
-    credit: 'Cole Keister',
-    creditLink: 'https://unsplash.com/photos/cX-KEISwDIw',
-    message:
-      'This is protected content! It’s only available if you have the premium plan.',
-    allowedRoles: ['premium'],
   },
 };
 
