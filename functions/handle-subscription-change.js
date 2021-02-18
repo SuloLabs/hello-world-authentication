@@ -34,6 +34,9 @@ exports.handler = async ({ body, headers }, context) => {
     // take the first word of the plan name and use it as the role
     const plan = subscription.items.data[0].plan.product;
     //alert(plan);
+    if(plan == 'prod_Iy8WKV4AR555nT') {
+        plan = 'pro';
+    }
 
     const role = plan;
 
